@@ -1,3 +1,5 @@
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871848.svg)](https://doi.org/10.5281/zenodo.21871848)
+
 # TPB Core v1.2 FINAL
 **Unified Field Theory - Deterministic Implementation**
 
