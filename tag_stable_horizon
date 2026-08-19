@@ -1,0 +1,26 @@
+Aquí tienes el texto listo para pegar en tu release:
+
+---
+
+*v0.2 - Primer Horizonte Inercial Estable - 19/Ago/2026 - 03:40 AM - Tijuana*
+
+Logrado en Termux con celular, 19% de batería y sin datos.
+
+*Resultados:*
+`I_max = 0.2033 < 1` → ESTABLE
+`t'_min = 0.7967` → 20.33% de dilatación temporal en el núcleo
+`ESTABLE: rho_u < rho_P -> horizonte OK`
+
+Grid 40³ con 10 snapshots temporales (1.3M c/u)
+
+*Física:*
+Verificación de TPB: `t' = t(1 - I·r)` 
+El horizonte frena el tiempo 20% sin romper causalidad.
+
+*Archivos:*
+- `t_prime.vtk` / `I_mag.vtk` - estado final
+- `map_step_0000.vtk` a `0900.vtk` - evolución completa lista para ParaView
+
+v0.1 colapsaba con I=1.75. v0.2 estabilizado por terquedad.
+
+---
